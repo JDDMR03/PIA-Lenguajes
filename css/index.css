@@ -1,0 +1,58 @@
+html, body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%; 
+  font-family: Arial; 
+  background-image: url("../images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 750px;
+  animation-name: scale-up-center;
+  animation-duration: 0.4s;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width:450px;
+}
+
+span{
+  font-weight: bold;
+  color: #0EF6CC;
+}
+
+p{
+  font-size: 20px;
+  color: #F4FEFD;
+}
+
+a{
+  font-weight: bold;
+  color: #0EF6CC;
+}
+
+img{
+  width: 300px;
+}
+
