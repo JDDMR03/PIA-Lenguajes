@@ -1,0 +1,36 @@
+html, body{
+  display: flex;
+  justify-content: center;
+  font-family: Arial; 
+  background-color: #1B2223;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+p{
+  font-size: 20px;
+  color: #F4FEFD;
+  text-align: justify;
+}
+
+img{
+  width: 300px;
+}
+
+#code{
+  width: 400px;
+}
+
+.images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
