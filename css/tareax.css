@@ -1,0 +1,56 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+html, body{
+  display: flex;
+  justify-content: center;
+  font-family: Arial; 
+  background-color: #1B2223;
+}
+
+.info{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+i{
+  font-size: 40px;
+  margin: 20px;
+  font-weight: bold;
+  color: #0EF6CC;
+}
+
+p{
+  font-size: 20px;
+  color: #F4FEFD;
+  text-align: justify;
+}
+h1{
+  font-weight: bold;
+  font-size: 40px;
+  color: #0EF6CC;
+}
+h2{
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+  font-size: 25px;
+  color: #0EF6CC;
+}
+h3{
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #0EF6CC;
+}
+
