@@ -19,8 +19,9 @@ html, body{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
-  width: 750px;
+  width: 100%;
   animation-name: scale-up-center;
   animation-duration: 0.4s;
 }
