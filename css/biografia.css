@@ -4,6 +4,7 @@ html, body{
   justify-content: center;
   font-family: Arial; 
   background-color: #1B2223;
+  width: 100%;
 }
 
 .info{
