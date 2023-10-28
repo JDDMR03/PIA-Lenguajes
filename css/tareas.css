@@ -18,7 +18,7 @@ html, body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 60%;
+  width: 750px;
 }
 
 li{
@@ -34,6 +34,7 @@ li{
 a{
   font-weight: bold;
   color: #0EF6CC;
+  font-size: 30px;
   text-decoration: none;
 }
 
