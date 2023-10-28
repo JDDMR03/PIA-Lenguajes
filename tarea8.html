@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 8</title>
+    <link rel="stylesheet" href="css/tareax.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <!--Div for schema-->
+    <div class="info">
+      <h1>Tarea 8</h1> 
+      <h2>Simbolos</h2>
+      <p>Algunos de los símbolos más utilizados en R incluyen:</p>
+      <pre>
+        <code>
++, -, *, /, ^: Operadores aritméticos.
+==, !=, <, >, <=, >=: Operadores relacionales.
+!, &, &&, |, ||: Operadores lógicos.
+<- o =: Operadores de asignación.
+%in%: Identifica si un elemento pertenece a un vector.
+$: Permite acceder a objetos almacenados dentro de un objeto.
+        </code>
+      </pre>
+
+      <h2>Sintaxis</h2>
+      <p>
+         La sintaxis de R es similar a la de otros lenguajes de
+         programación. Incluye el uso de variables, comentarios y
+         palabras clave2. Los bloques de código se delimitan con
+         llaves {} y las declaraciones se separan con saltos de
+         línea o, opcionalmente, con punto y coma3.
+      </p>
+
+      <h2>Esqueleto</h2>
+      <p>
+         Un programa en R generalmente consta de la definición
+         de funciones y su llamada para realizar operaciones.
+         Aquí tienes un ejemplo básico:
+      </p>
+      <pre>
+      <code>
+# Definición de la función
+mi_funcion <- function(a, b) {
+  resultado <- a + b
+  return(resultado)
+}
+
+# Llamada a la función
+suma <- mi_funcion(3, 4)
+print(suma)
+    </code>
+    </pre>
+      
+      <h2>Paradigma</h2>
+      <p>
+        R es un lenguaje multiparadigma que soporta
+        programación procedimental, orientada a
+        objetos, funcional, reflexiva e imperativa73.
+      </p>
+
+      
+    <h2>Aplicaciones para ejecutar</h2>
+    <p>
+       Puedes usar varios editores y compiladores para R,
+       como RStudio, que es un entorno de desarrollo integrado (IDE)
+       para R. También puedes usar compiladores en línea como los
+       proporcionados por sitios web como Programiz4, W3Schools5 y
+       Replit6.
+    </p>
+
+    <h2>Ejemplo de código para calcular el factorial de un número</h2>
+    <pre>
+      <code>
+# Definición de la función factorial
+factorial <- function(n) {
+  if(n == 0) {
+    return(1)
+  } else {
+    return(n * factorial(n-1))
+  }
+}
+
+# Uso de la función factorial
+print(factorial(5))
+
+
+      </code>
+    </pre>
+
+
+      <div class="bar">
+        <a href="tarea7.html"><i class="nf nf-cod-arrow_left"></i></a>
+        <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+        <a href="tarea9.html"><i class="nf nf-cod-arrow_right"></i></a>
+      </div>
+      
+    </div>
+  </body>
+
+</html> 

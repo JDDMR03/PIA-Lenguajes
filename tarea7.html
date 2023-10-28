@@ -17,80 +17,68 @@
     <div class="info">
       <h1>Tarea 7</h1> 
       <h2>Simbolos</h2>
-      <p>Algunos de los símbolos más utilizados en R incluyen:</p>
-      <pre>
-        <code>
-+, -, *, /, ^: Operadores aritméticos.
-==, !=, <, >, <=, >=: Operadores relacionales.
-!, &, &&, |, ||: Operadores lógicos.
-<- o =: Operadores de asignación.
-%in%: Identifica si un elemento pertenece a un vector.
-$: Permite acceder a objetos almacenados dentro de un objeto.
-        </code>
-      </pre>
+      <p>
+        Haskell utiliza una variedad de símbolos en su
+        sintaxis. Algunos de los más comunes incluyen ->
+        para las firmas de tipo, = para la definición de
+        funciones, :: para especificar tipos y ++ para
+        la concatenación de listas. Los operadores como
+        +, -, *, / se usan para las operaciones matemáticas.
+      </p>
 
       <h2>Sintaxis</h2>
       <p>
-         La sintaxis de R es similar a la de otros lenguajes de
-         programación. Incluye el uso de variables, comentarios y
-         palabras clave2. Los bloques de código se delimitan con
-         llaves {} y las declaraciones se separan con saltos de
-         línea o, opcionalmente, con punto y coma3.
+         La sintaxis de Haskell es bastante única en
+         comparación con muchos otros lenguajes de
+         programación debido a su naturaleza funcional.
+         Las funciones se definen con un nombre,
+         seguido de parámetros separados por espacios, un
+         signo igual y luego el cuerpo de la función.
       </p>
 
       <h2>Esqueleto</h2>
       <p>
-         Un programa en R generalmente consta de la definición
-         de funciones y su llamada para realizar operaciones.
-         Aquí tienes un ejemplo básico:
+         Un programa Haskell típico comienza con la
+         definición del módulo y las declaraciones de
+         importación, seguidas por las definiciones de
+         funciones y tipos.
       </p>
       <pre>
       <code>
-# Definición de la función
-mi_funcion <- function(a, b) {
-  resultado <- a + b
-  return(resultado)
-}
+module Main where
 
-# Llamada a la función
-suma <- mi_funcion(3, 4)
-print(suma)
-    </code>
+main :: IO ()
+main = putStrLn "¡Hola, mundo!"
+      </code>
     </pre>
       
       <h2>Paradigma</h2>
       <p>
-        R es un lenguaje multiparadigma que soporta
-        programación procedimental, orientada a
-        objetos, funcional, reflexiva e imperativa73.
+        Haskell es un lenguaje de programación puramente
+        funcional5. Esto significa que se centra en la
+        evaluación de funciones matemáticas y evita cambiar
+        el estado y los datos mutables.
       </p>
 
       
-    <h2>Aplicaciones para ejecutar</h2>
+    <h2>Aplicaciones para ejecutar código</h2>
     <p>
-       Puedes usar varios editores y compiladores para R,
-       como RStudio, que es un entorno de desarrollo integrado (IDE)
-       para R. También puedes usar compiladores en línea como los
-       proporcionados por sitios web como Programiz4, W3Schools5 y
-       Replit6.
+       El compilador más utilizado para Haskell es el
+       Compilador Glasgow Haskell (GHC)4. Para editar
+       código Haskell, puedes usar cualquier editor de
+       texto que prefieras, como Sublime Text, Atom o
+       Visual Studio Code. Hay IDEs como IntelliJ IDEA
+       (con el plugin Haskell) y plugins para otros
+       editores que proporcionan características útiles
+       como resaltado de sintaxis y autocompletado.
     </p>
 
     <h2>Ejemplo de código para calcular el factorial de un número</h2>
     <pre>
       <code>
-# Definición de la función factorial
-factorial <- function(n) {
-  if(n == 0) {
-    return(1)
-  } else {
-    return(n * factorial(n-1))
-  }
-}
-
-# Uso de la función factorial
-print(factorial(5))
-
-
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
       </code>
     </pre>
 
@@ -105,3 +93,4 @@ print(factorial(5))
   </body>
 
 </html> 
+
