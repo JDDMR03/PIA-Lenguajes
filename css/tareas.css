@@ -14,7 +14,11 @@ html, body{
 
 .menu{
   display: flex;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
 
 li{
   display: inline-block;
