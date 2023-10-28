@@ -1,3 +1,4 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
 html, body{
   display: flex;
   justify-content: center;
@@ -22,7 +23,9 @@ p{
 img{
   width: 300px;
 }
-
+a{
+  text-decoration: none;
+}
 #code{
   width: 400px;
 }
@@ -34,4 +37,16 @@ img{
   flex-direction: row;
   width: 100%;
 }
+.bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
 
+i{
+  font-size: 40px;
+  margin: 20px;
+  font-weight: bold;
+  color: #0EF6CC;
+}

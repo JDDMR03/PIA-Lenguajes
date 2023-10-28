@@ -29,6 +29,10 @@ i{
   color: #0EF6CC;
 }
 
+a{
+  text-decoration: none;
+}
+
 p{
   font-size: 20px;
   color: #F4FEFD;
