@@ -9,11 +9,10 @@ html, body{
 
 .info{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
 }
 
 p{

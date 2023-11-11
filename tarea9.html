@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 9</title>
+    <link rel="stylesheet" href="css/tareax.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <!--Div for schema-->
+    <div class="info">
+      <h1>Tarea 9</h1> 
+      <h2>Simbolos</h2>
+      <p>Los simbolos mas usados en PHP:</p>
+      <pre>
+        <code>
+Operadores aritméticos: + (suma), - (resta), * (multiplicación), / (división), % (módulo), ** (exponenciación).
+
+Operadores de asignación: = (asignación), += (suma y asignación), -= (resta y asignación), *= (multiplicación y asignación), /= (división y asignación), etc.
+
+% Para el modulo.
+
+Operadores de comparación: == (igual), === (idéntico), != o <> (no igual), !== (no idéntico), < (menor que), > (mayor que), etc.
+
+Operadores lógicos: && o and (y lógico), || o or (o lógico), ! (no lógico).
+
+Otros operadores: .= (concatenación y asignación), ., etc.
+        </code>
+      </pre>
+
+      <h2>Sintaxis</h2>
+      <pre>
+        <code>
+Un script de PHP comienza con &lt;?php y termina con ?&gt;.
+El código PHP se coloca entre estas etiquetas.
+Las declaraciones en PHP terminan con un punto y coma (;).
+Los comentarios en PHP comienzan con // para una sola línea, o se encierran entre /* y */ para múltiples líneas.
+PHP no distingue entre mayúsculas y minúsculas para sus palabras clave, pero las variables sí son sensibles a las mayúsculas y minúsculas.
+        </code>
+      </pre>
+
+      <h2>Esqueleto</h2>
+      <pre>
+        <code>
+&lt;?php
+// Aquí va el código PHP
+?&gt;
+        </code>
+      </pre>
+      
+      <h2>Paradigma</h2>
+      <p>
+        PHP es un lenguaje de programación
+        multiparadigma. Soporta programación
+        imperativa, funcional, orientada a
+        objetos, procedimental y reflexiva.
+      </p>
+
+      
+    <h2>Aplicaciones para ejecutar código</h2>
+    <p>
+      Puedes usar cualquier editor de texto para escribir código PHP, como Sublime Text, Atom, Visual Studio Code, etc.
+    </p>
+    <p>
+      Para compilar y ejecutar código PHP, necesitas un servidor web como Apache o Nginx, y también necesitas instalar el intérprete de PHP en tu servidor.
+    </p>
+
+    <h2>Ejemplo de código para calcular el factorial de un número</h2>
+    <pre>
+      <code>
+&lt;?php
+function factorial($n) {
+  if ($n == 0) {
+    return 1;
+  } else {
+    return $n * factorial($n - 1);
+  }
+}
+
+echo "El factorial de 5 es: " . factorial(5);
+?&gt;
+      </code>
+    </pre>
+
+
+      <div class="bar">
+        <a href="tarea8.html"><i class="nf nf-cod-arrow_left"></i></a>
+        <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+        <a href="tarea10.html"><i class="nf nf-cod-arrow_right"></i></a>
+      </div>
+      
+    </div>
+  </body>
+
+</html> 
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 5</title>
+    <link rel="stylesheet" href="css/tareax.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <!--Div for schema-->
+    <div class="info">
+      <h1>Tarea 5</h1> 
+      <h2>Simbolos</h2>
+      <p>Los simbolos mas usados en prolog son:</p>
+      <pre>
+        <code>
+If --> :-
+Not ~ Not
+Or V 
+And ^ 
+        </code>
+      </pre>
+      
+      <h2>Sintaxis</h2>
+      <p>
+        Las variables son cadenas que pueden ser una
+        combinación de letras minúsculas o mayúsculas.
+      </p>
+
+      <p>
+        Los hechos se especifican en forma de cabeza,
+        que se conoce como la cabeza de la cláusula.
+      </p>
+
+      <h2>Esqueleto</h2>
+      <p>
+        Las consultas en Prolog son acciones para
+        preguntar al programa sobre la información disponible
+        en su base de datos.
+      </p>
+      <p>
+        Las reglas se especifican en la forma: head:- t1, t2,
+        t3,….., tk, donde k>=1. La cabeza se conoce como la
+        cláusula de la cabeza. :- se conoce como el cuello de la cláusula.
+      </p>
+      
+      <h2>Paradigma</h2>
+      <p>
+        Prolog pertenece al paradigma de programación lógica.
+        Es un ejemplo importante del lenguaje de cuarta
+        generación que soporta el paradigma de programación declarativa.
+      </p>
+
+      
+    <h2>Aplicaciones para ejecutar código Prolog</h2>
+    <p>
+      Puedes usar SWI-Prolog para ejecutar código Prolog.
+      Es un compilador Prolog gratuito y de código abierto
+      disponible en Windows, MacOS y Linux.
+    </p>
+
+    <h2>Ejemplo de código para calcular el factorial de un número</h2>
+    <pre>
+      <code>
+factorial(0, 1).
+factorial(N, Result) :-
+    N &gt; 0,
+    N1 is N - 1,
+    factorial(N1, Res),
+    Result is Res * N.
+      </code>
+    </pre>
+
+
+      <div class="bar">
+        <a href="tarea4.html"><i class="nf nf-cod-arrow_left"></i></a>
+        <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+        <a href="tarea6.html"><i class="nf nf-cod-arrow_right"></i></a>
+      </div>
+      
+    </div>
+  </body>
+
+</html>
+

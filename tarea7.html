@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 7</title>
+    <link rel="stylesheet" href="css/tareax.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <!--Div for schema-->
+    <div class="info">
+      <h1>Tarea 7</h1> 
+      <h2>Simbolos</h2>
+      <p>
+        Haskell utiliza una variedad de símbolos en su
+        sintaxis. Algunos de los más comunes incluyen ->
+        para las firmas de tipo, = para la definición de
+        funciones, :: para especificar tipos y ++ para
+        la concatenación de listas. Los operadores como
+        +, -, *, / se usan para las operaciones matemáticas.
+      </p>
+
+      <h2>Sintaxis</h2>
+      <p>
+         La sintaxis de Haskell es bastante única en
+         comparación con muchos otros lenguajes de
+         programación debido a su naturaleza funcional.
+         Las funciones se definen con un nombre,
+         seguido de parámetros separados por espacios, un
+         signo igual y luego el cuerpo de la función.
+      </p>
+
+      <h2>Esqueleto</h2>
+      <p>
+         Un programa Haskell típico comienza con la
+         definición del módulo y las declaraciones de
+         importación, seguidas por las definiciones de
+         funciones y tipos.
+      </p>
+      <pre>
+      <code>
+module Main where
+
+main :: IO ()
+main = putStrLn "¡Hola, mundo!"
+      </code>
+    </pre>
+      
+      <h2>Paradigma</h2>
+      <p>
+        Haskell es un lenguaje de programación puramente
+        funcional5. Esto significa que se centra en la
+        evaluación de funciones matemáticas y evita cambiar
+        el estado y los datos mutables.
+      </p>
+
+      
+    <h2>Aplicaciones para ejecutar código</h2>
+    <p>
+       El compilador más utilizado para Haskell es el
+       Compilador Glasgow Haskell (GHC)4. Para editar
+       código Haskell, puedes usar cualquier editor de
+       texto que prefieras, como Sublime Text, Atom o
+       Visual Studio Code. Hay IDEs como IntelliJ IDEA
+       (con el plugin Haskell) y plugins para otros
+       editores que proporcionan características útiles
+       como resaltado de sintaxis y autocompletado.
+    </p>
+
+    <h2>Ejemplo de código para calcular el factorial de un número</h2>
+    <pre>
+      <code>
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+      </code>
+    </pre>
+
+
+      <div class="bar">
+        <a href="tarea6.html"><i class="nf nf-cod-arrow_left"></i></a>
+        <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+        <a href="tarea8.html"><i class="nf nf-cod-arrow_right"></i></a>
+      </div>
+      
+    </div>
+  </body>
+
+</html> 
+
