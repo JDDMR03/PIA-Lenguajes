@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 14</title>
+    <link rel="stylesheet" href="css/codigo.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <div class="article">
+      <h1>Tarea 14</h1>
+      <h2>Redaccion</h2>
+      <p>Programa que busque cuantas veces aparece un numero en un vector</p>
+    </div>
+    <div class="code">
+      <pre>
+<code> 
+import java.util.Scanner;
+
+public class tarea14{
+  public static void main(String[] args){
+    Scanner cin = new Scanner(System.in);
+
+    System.out.print("Ingrese la medida del vector: ");
+    int n=cin.nextInt();
+
+    int arr[];
+    arr = new int[n];
+
+    for(int i=0; i&lt;n; i++){
+      arr[i]=cin.nextInt();
+    }
+
+    System.out.print("Ingrese el numero a buscar: ");
+    int x=cin.nextInt();  
+
+    int ans=0;
+
+    System.out.print("arr[ ");
+    for(int i=0; i&lt;n; i++){
+      if(x==arr[i]){
+        ans++;
+      }
+      System.out.print(arr[i] +" ");
+    }
+    System.out.println("]");
+
+    System.out.println("El numero "+x +" aparece " +ans +" veces");
+  }
+}
+
+</code>
+      </pre>
+    </div>
+
+    <div class="bar">
+      <a href="tarea13.html"><i class="nf nf-cod-arrow_left"></i></a>
+      <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+      <a href="tarea15.html"><i class="nf nf-cod-arrow_right"></i></a>
+    </div>
+
+  </body>
+
+</html>
+
+
+
+
+
