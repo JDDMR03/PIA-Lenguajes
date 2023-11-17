@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 13</title>
+    <link rel="stylesheet" href="css/codigo.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <div class="article">
+      <h1>Tarea 13</h1>
+      <h2>Redaccion</h2>
+      <p>Programa que genere la susecion 1,8,243...</p>
+    </div>
+    <div class="code">
+      <pre>
+<code> 
+import java.util.Scanner;
+import java.lang.Math;
+
+public class tarea13{
+  public static void main(String[] args){
+    Scanner cin = new Scanner(System.in);
+
+    System.out.print("Ingrese cuantos numeros quiere generar: ");
+    int n = cin.nextInt();
+    int aux=1;
+
+    for(int i=1; i<=n; i++){
+      System.out.print(Math.pow(i,aux)+" ");
+      aux+=2;
+    }
+  }
+}
+</code>
+      </pre>
+    </div>
+
+    <div class="bar">
+      <a href="tarea12.html"><i class="nf nf-cod-arrow_left"></i></a>
+      <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+      <a href="tarea14.html"><i class="nf nf-cod-arrow_right"></i></a>
+    </div>
+
+  </body>
+
+</html>
+
+
+
+
