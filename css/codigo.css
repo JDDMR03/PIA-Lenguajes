@@ -1,6 +1,7 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 html,body{
+  font-family: Arial;
   width: 100%;
   background-color: #1B2223;
   display: flex;
