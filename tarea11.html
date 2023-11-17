@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!--Page configuration-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 11</title>
+    <link rel="stylesheet" href="css/codigo.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+
+  <!--Body by Divs-->
+  <body>
+    <div class="article">
+      <h1>Tarea 11</h1>
+      <h2>Redaccion</h2>
+      <p>Programa de conversion de temperaturas</p>
+    </div>
+    <div class="code">
+      <pre>
+<code> 
+import java.util.Scanner;
+
+public class tarea11{
+  public static void main(String[] args){
+    Scanner cin = new Scanner(System.in);
+
+    System.out.println("-------------------------------------");
+    System.out.println("|    1.- Celcius a Farenheit        |");
+    System.out.println("|    2.- Farenheit a Centigrados    |");
+    System.out.println("-------------------------------------");
+    System.out.print("Ingrese una opcion: ");
+
+    int op=cin.nextInt();
+
+    double celcius=0;
+    double farenheit=0;
+
+    if(op==1){
+      System.out.print("Ingrese la temperatura en Celcius: ");
+      celcius=cin.nextFloat();
+      farenheit=((celcius*(1.8000))+32);
+      System.out.println(celcius +" Grados Celcius son "+farenheit +" Grados Farenheit.");
+    }
+    else if(op==2){
+      System.out.print("Ingrese la temperatura en Farenheit: ");
+      farenheit=cin.nextFloat();
+      celcius=((farenheit-32)*(0.5555));
+      System.out.println(farenheit +" Grados Farenheit son "+celcius +" Grados Celcius.");
+    }
+    else{
+      System.out.print("La opcion no es valida :(");
+    }
+  }
+} 
+</code>
+      </pre>
+    </div>
+
+    <div class="bar">
+      <a href="tarea10.html"><i class="nf nf-cod-arrow_left"></i></a>
+      <a href="tareas.html"><i class="nf nf-md-home"></i></a>
+      <a href="tarea12.html"><i class="nf nf-cod-arrow_right"></i></a>
+    </div>
+
+  </body>
+
+</html>
+
+
